@@ -1,7 +1,13 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "agent": "./hello.py:graph"
+    "agent": "./hello.py:graph",
+    "partial-sequence": "partial:graph",
+    "partial-paralled": "partial_parallel:graph",
+    "parallel": "parallel:graph",
+    "conditional": "conditional:graph",
+    "loops": "loops:graph",
+    "react_demo": "novice.react_demo:graph"
   },
   "env": ".env"
 }
